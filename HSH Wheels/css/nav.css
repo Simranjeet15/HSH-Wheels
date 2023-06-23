@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    /* border: solid white; */
+    /* background-color: rgb(203, 203, 191); */
+    /* border-radius: 10px; */
+}
+a:link,a:active,a:visited,a:hover{
+	color:white;
+}
+nav,ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+   width: 310px;
+   font-size: 20px;
+   margin: auto;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color:red
+
+}
+nav li{
+    list-style-type: none;
+}
+nav img{
+    padding-right: 10px;
+}
